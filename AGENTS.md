@@ -28,3 +28,8 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Project rules
+- Site is a single-page demo in src/routes/index.tsx with hash sections; why: user asked for one landing page.
+- Only confirmed business facts (name, phone, address, category) appear in copy and JSON-LD; why: demo must not invent claims.
+- Visual identity: sober editorial, near-square corners, serif headings (Source Serif 4) + IBM Plex Sans, tokens in src/styles.css; why: user wants non-template, formal look.
